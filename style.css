@@ -4,33 +4,38 @@
 	box-sizing: border-box;
   }
 body{
-	background: #3cc9fc;
-	width: auto;
-	height: 100%;
+	background:scroll;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	background-color: rgb(38, 0, 58);
+	color: #ffffff;
+	overflow-x: hidden;
 
 }
 .container{
-	background: linear-gradient(to right, #ffffff, #ffffff);
+	background: linear-gradient(to left , #ffffff, #ffffff);
 	display: sticky;
 	justify-content: space-between;
 	align-items: center;
-	height: 65px;
+	height: 70px;
 	position: relative;
 	border: none;
 }
 div img:hover{
-	opacity:	0.5;
+	opacity:0.5;
 	transition: all 6ms;
 }
 div img{
-	background: linear-gradient(to right, #d4aa00, #ffad06);
+	background: linear-gradient(to right, #ffb005, #ffb300);
 	width: 70px;
 	height: 60px;
-	object-fit: cover;
+	object-fit: contain;
 	position: absolute;
 	margin: 0 0 0 1.5rem;
 	bottom: 0.5rem;
-	border-radius: 10%;
+	border-radius: 20px;
 	top: 0.5rem;
 	
 }
@@ -43,7 +48,7 @@ div img{
 	font-size: medium;
 }
 .nav-bar ul li a:hover{
-	color: rgba(191, 134, 0, 0.801);
+	color: rgba(173, 121, 0, 0.849);
 	font-weight: 700;
 	transition: all 3ms;
 }
@@ -55,12 +60,12 @@ div img{
 	top: 2.0rem;
 }
 .nav-bar ul li a{
-	color: rgba(184, 150, 26, 0.829);
+	color: rgba(255, 200, 0, 0.829);
 }
 
 button{
 	position: absolute;
-	background-color: rgba(185, 129, 0, 0.882);
+	background-color: rgba(171, 132, 15, 0.899);
 	border: none;
 	color: rgb(255, 255, 255);
 	padding: 0.5rem 1rem;
@@ -74,7 +79,7 @@ button{
 }
 #btn {
 position: absolute;
-	background-color: rgba(185, 129, 0, 0.882);
+	background-color: rgba(171, 132, 15, 0.899);
 	border: none;
 	color: rgb(255, 255, 255);
 	padding: 0.5rem 1rem;
@@ -97,46 +102,17 @@ button:hover{
 .hero{
 	background: linear-gradient(to right, #ffffff, #ffffff);
 	display: flex;
-	justify-content: space-between;
+	justify-content:center;
 	align-items: center;
-	margin-bottom: 2rem;
-	position: relative;
-	padding: 3rem 3rem;
+	width: 100vw;
+	padding: 1rem 1.5rem;
+	justify-content: center;
 }
-/* .video1{
-	position: relative;
-	left: 0;
-	top: 0rem;
-	width: 100%;
-	height: 50%;
-	transition: all 3ms;
-	transition: ease-in-out;
-	
-}
-.video2{
-	position: relative;
-	left: 0;
-	top: 0rem;
-	width: 80%;
-	height: 50%;
-	transition: all 3ms;
-	transition: ease-in; */
-	
 
-/* .video3{
-	position: relative;
-	left: 0;
-	top: 0rem;
-	width: 100%;
-	height: 50%;
-} */
 
-.container-1{
-	background: linear-gradient(to right, #ffffff, #ffffff);
-}
  .btn2{
 position: absolute;
-	background-color: rgba(194, 136, 0, 0.882);
+	background-color: rgba(171, 132, 15, 0.899);
 	border:0.5px solid;
 	color: rgb(255, 255, 255);
 	border: none;
@@ -156,17 +132,23 @@ color: rgb(255, 255, 255);
 }
 
 #D{
-	background-color: #000000;
-	background: none;
-	border: none;
-	color:rgba(194, 130, 2, 0.859);
+	color:rgba(170, 147, 0, 0.859);
 	padding: 0rem 1rem;
 	cursor: pointer;
-	border-radius: 5%;
 	top: 0.5rem;
 	font-size: 1rem;
+	border: none;
+background: rgb(244, 244, 244);
 }
-#D{
-	visibility:visible;
+
+.main-parent video{
+	width: 50vw;
+}
+.one{
+	font-size: x-large;
+	
+	
+}
+.main-parent{
 	
 }
